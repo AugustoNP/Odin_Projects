@@ -1,0 +1,25 @@
+/* styles.css */
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+
+.title,
+.subtitle
+{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+}
+
+.subtitle
+{
+    font: 300;
+}
+
+.highl
+{
+    background-color: aquamarine;
+}
