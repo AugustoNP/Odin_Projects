@@ -1,4 +1,3 @@
-
 const selectElement = document.getElementById('RPS');
 const buttonElement = document.getElementById('submitButton');
 
@@ -26,7 +25,6 @@ function getComputerChoice () {
 }
 
 
-
 buttonElement.addEventListener("click", function() {
     const userChoice = selectElement.value;
     const computerChoice = getComputerChoice();
@@ -36,9 +34,6 @@ buttonElement.addEventListener("click", function() {
     mainGameLogic(userChoice, computerChoice)
     
 });
-
-    
-
 
 
 function mainGameLogic (userChoice, computerChoice)
@@ -90,7 +85,4 @@ function mainGameLogic (userChoice, computerChoice)
 
 
 
-/* numberChoice = getComputerChoice()
-console.log(numberChoice)
-console.log(NumberChoiceTranslator(numberChoice)) */
 
